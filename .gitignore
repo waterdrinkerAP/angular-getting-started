@@ -1,3 +1,7 @@
+# Repo specific
+**/node_modules
+typescript-demo/*.js
+**/dist
 
 # Created by https://www.toptal.com/developers/gitignore/api/windows,linux,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,visualstudiocode
