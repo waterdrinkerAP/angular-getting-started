@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+.even {
+    background-color: #2e2e2e;
+}
+
+.odd {
+    background-color: #1e1e1e;
+}
