@@ -1,0 +1,35 @@
+<div fxFlex
+     fxLayout="column"
+     fxLayoutGap="1em"
+     fxLayoutAlign="center">
+  <div fxFlex="100"
+       fxLayout="row"
+       fxLayoutAlign="center">
+    <h1>Current Player: {{ player }}</h1>
+  </div>
+  <div fxFlex="100"
+       fxLayout="row"
+       fxLayoutAlign="center">
+    <button mat-raised-button
+            (click)="newGame()">
+      Start new Game
+    </button>
+  </div>
+  <div fxFlex="100"
+       fxLayout="row"
+       fxLayoutAlign="center">
+    <h2 *ngIf="winner">
+      Player {{ winner }} won the game!
+    </h2>
+  </div>
+  <div fxFlex="100"
+       fxLayout="row"
+       fxLayoutAlign="center">
+    <main>
+      <app-square *ngFor="let val of squares; let i = index"
+                  [value]="val"
+                  (click)="makeMove(i)">
+      </app-square>
+    </main>
+  </div>
+</div>

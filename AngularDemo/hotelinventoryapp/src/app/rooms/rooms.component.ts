@@ -27,6 +27,7 @@ export class RoomsComponent implements OnInit {
             photos: 'http://images.unsplash.com/',
             checkinTime: new Date('11-Nov-2021'),
             checkoutTime: new Date('12-Nov-2021'),
+            rating: 4.5,
         },
         {
             roomNumber: 2,
@@ -36,6 +37,7 @@ export class RoomsComponent implements OnInit {
             photos: 'http://images.unsplash.com/',
             checkinTime: new Date('11-Nov-2021'),
             checkoutTime: new Date('12-Nov-2021'),
+            rating: 3.4,
         },
         {
             roomNumber: 3,
@@ -45,6 +47,7 @@ export class RoomsComponent implements OnInit {
             photos: 'http://images.unsplash.com/',
             checkinTime: new Date('11-Nov-2021'),
             checkoutTime: new Date('12-Nov-2021'),
+            rating: 2.6,
         },
     ];
 
