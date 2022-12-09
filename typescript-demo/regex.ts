@@ -1,4 +1,4 @@
-// I just wanted to play around with regex for a it in this file
+// I just wanted to play around with regex for a bit in this file
 
 const reLit: RegExp = /ab+c/gi; // Literals are evaluated at compile time
 const reCon: RegExp = new RegExp(`ab+c`, 'gi'); // Evaluated at run time

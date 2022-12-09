@@ -33,7 +33,7 @@ const enum Color {
 }
 let c = Color.Blue;
 
-let swapNumbs: [number, number];
+let swapNumbs: [number, number]; // This tuple must have exactly two numbers
 
 function swapNumbers(num1: number, num2: number): [number, number] {
     return [num2, num1];

@@ -1,7 +1,7 @@
 import { ILogin, IUser } from './interface';
 
 class Employee implements ILogin {
-    #id!: number;
+    #id!: number;  // # is the same as private in JavaScript
     protected name!: string;
     public address!: string;
 
@@ -43,10 +43,6 @@ class Manger extends Employee {
 
 let john: Employee = new Employee(1, 'John', 'Main Street 1');
 let address: string = john.getNameWithAddress();
-
-// john.id = 1;
-// john.name = "John";
-// john.address = "Main Street 1";
 
 john.id = 100;
 console.log(john.id);
